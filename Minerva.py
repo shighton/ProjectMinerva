@@ -1,2 +1,9 @@
-# First line
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+
+with open('Minerva.npy', 'rb') as file:
+    output = np.load(file, allow_pickle=True)
+
+# print(output)
 
